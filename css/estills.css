@@ -44,7 +44,16 @@ button {
 }
 
 
+body {
+ 
+   background-image:url(css\imagenes\service.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;  
+   
 
+
+
+}
 
 
 
