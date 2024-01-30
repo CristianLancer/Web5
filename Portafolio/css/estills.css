@@ -47,7 +47,7 @@ button {
 body {
  
    background-image: url(imagenes/color\ rojo.jpg);
-   background-repeat: no-repeat;
+   background-repeat: repeat;
    background-size: cover;  
    background-position: center;
 
@@ -55,7 +55,14 @@ body {
 
 }
 
+.titulo{
+    border-style: solid;
+    border-color: gray;
+   border-radius: 5px;
+  border-width: 5px;
 
+
+}
 
 
 
