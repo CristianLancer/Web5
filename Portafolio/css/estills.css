@@ -20,11 +20,11 @@ width: 60px;
 
 }
 
-.nav-link{
+#navegacio {
   
     margin: 0 10px;
       text-decoration: none;
-
+   color: gray;
 
 }
 
