@@ -60,8 +60,8 @@ margin: auto
 
 body {
  
-   background-image: url(imagenes/color\ rojo.jpg);
-   background-repeat: repeat;
+   background-image: url(imagenes/artadecer.jpeg);
+   background-repeat:no-repeat ;
    background-size: cover;  
    background-position: center;
 
@@ -81,7 +81,13 @@ title{
 
 
 
+nav{
+    display: flex;
+    
+    justify-content: space-between;
 
+
+}
 
 
 
