@@ -1,12 +1,12 @@
 
 
 
-.header {
+header {
   
     display: flex;
     justify-content: space-between;
      
-    align-items: center;
+    align-items: self-start;
     padding: 50px;
     background-color: rgb(115, 41, 41);
 
@@ -62,8 +62,8 @@ body {
  
    background-image: url(imagenes/artadecer.jpeg);
    background-repeat:no-repeat ;
-   background-size: cover;  
-   background-position: center;
+   background-size: cover; 
+   
 
 
 
