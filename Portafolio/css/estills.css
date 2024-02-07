@@ -1,12 +1,37 @@
 
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:sans-serif ;
 
 
 
+}
+
+
+body{
+
+
+background: black;
+
+
+}
+
+
+.header{
+
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   padding: 20px 10px;
+   background: white;
 
 
 
-
+}
 
 
 
