@@ -28,12 +28,23 @@ background: black;
    width: 100%;
    padding: 20px 10px;
    background: white;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   z-index: 100;
+
+}
+
+.logo{
+
+font-size: 25px;
+color: white;
+text-decoration: none;
+font-weight: 600;
 
 
 
 }
-
-
 
 
 
