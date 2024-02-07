@@ -1,16 +1,6 @@
 
 
 
-header {
-  
-    display: flex;
-    justify-content: space-between;
-     
-    align-items: self-start;
-    padding: 50px;
-    background-color: rgb(115, 41, 41);
-
-}
 
 .logo{
 
@@ -61,7 +51,7 @@ margin: auto
 body {
  
    background-image: url(imagenes/artadecer.jpeg);
-   background-repeat:no-repeat ;
+   background-repeat:space ;
    background-size: cover; 
    
 
