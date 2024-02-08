@@ -186,7 +186,11 @@ margin-left: 35px;
 
 }
 
+.btn-box a:hover{
+   color: aqua;
 
+
+}
 
 
 .btn-box a:nth-child(2)::before{
@@ -198,5 +202,13 @@ margin-left: 35px;
 
 }
 
+.home-sci{
+ position: absolute;
+ bottom: 40px;
+ width: 170px;
+ background: red;
 
+
+
+}
 
