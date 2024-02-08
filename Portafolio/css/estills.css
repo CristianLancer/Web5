@@ -76,11 +76,20 @@ margin-left: 35px;
 
 }
 
+
+.home-content p {
+  font-size: 16px;
+  margin: 20px 0 40px ;
+
+
+
+}
+
 .home-content h1 {
 
   font-size: 56px;
   font-weight: 700;
-
+  line-height: 1.2;
 
 
 }
@@ -95,7 +104,9 @@ margin-left: 35px;
 
 }
 
-.home-content{
+.home-content .btn-box{
+   display: flex;
+   justify-content: space-between;
     width: 345px;
     height: 50px;
     background: yellowgreen;
@@ -104,6 +115,7 @@ margin-left: 35px;
 }
 
 .btn-box a{
+  position: relative;
   display:inline-flex ;
   width: 150px;
   height: 100%;
@@ -123,11 +135,55 @@ margin-left: 35px;
 }
 
 
+.btn-box a:nth-child(2){
+  background: transparent;
+  color: aqua;
+
+
+
+}
+
+.btn-box a::before{
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 0%;
+   height: 100%;
+   background: red;
+   z-index: -1;
+   transition: .5s;
 
 
 
 
 
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-box a:hover::before{
+  width: 100%;
+
+
+
+}
 
 
 
