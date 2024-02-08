@@ -14,7 +14,7 @@
 body{
 
 
-background: gray;
+background: #252850;
 
 
 }
@@ -202,13 +202,30 @@ margin-left: 35px;
 
 }
 
-.home-sci{
+.home-sci {
  position: absolute;
  bottom: 40px;
  width: 170px;
- background: red;
-
+ display: flex;
+ justify-content: space-between;
 
 
 }
 
+.home-sci a {
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid blue;
+  border-radius: 50%;
+  font-size: 20px;
+  color: blue;
+  text-decoration: none;
+  
+
+
+}
