@@ -38,7 +38,7 @@ background: black;
 .logo{
 
 font-size: 25px;
-color: blue;
+color:white;
 text-decoration: none;
 font-weight: 500;
 
@@ -49,7 +49,7 @@ font-weight: 500;
 
 .navbar a{
 font-size: 18px;
-color: blue;
+color: white;
 text-decoration: none;
  font-weight: 500;
 margin-left: 35px;
@@ -59,15 +59,41 @@ margin-left: 35px;
 
 
 
+.home{
+  height: 100vh;
+  display: flex ;
+  align-items: center;
+  padding: 0 10%;
+
+}
+
+
+.home-content{
+  background: yellowgreen;
+  max-width: 600px;
 
 
 
+}
+
+.home-content h1 {
+
+  font-size: 56px;
+  font-weight: 700;
 
 
 
+}
+
+
+.home-content h3{
+   font-size: 32px;
+   font-weight: 700;
+   color: aqua;
 
 
 
+}
 
 
 
