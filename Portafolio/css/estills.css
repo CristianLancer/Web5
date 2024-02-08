@@ -74,8 +74,14 @@ body{
  text-decoration: none;
  font-weight: 600;
  margin-left: 35px;
+ transition: .3s;
 
+} 
 
+.navbar a:hover,
+.navbar a.Active{
+
+  color: #00abf0;
 }
 
 
@@ -84,7 +90,7 @@ body{
   height: 100vh;
 
   background-size: cover;
-  background-position: center;
+  background-position: right;
   display: flex ;
   align-items: center;
   padding: 0 10%;
@@ -324,13 +330,14 @@ transition: .5s;
 
 position: absolute;
 top: 0;
-right: 30%;
-width: 500px;
+right:0%;
+width: 600px;
 height: 100%;
 background: transparent;
-
 transition: 3s;
-
+animation: manipActiveHover .1s forwards;
+animation-delay: 4s ;
+pointer-events: none;
 
 
 
@@ -362,6 +369,18 @@ opacity: .8;
 
 }
 
+.home-imghover::after{content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 120%;
+  height: 100%;
+  background: #081b29 ;
+ animation: showRight 1s ease forwards;
+ animation-delay: 3s;
+ z-index: 100;
+
+}
 
 
 
@@ -371,4 +390,10 @@ opacity: .8;
      width: 0;
 
   }
+}
+@keyframes manipActiveHover{
+  100%{
+    pointer-events: auto;
+  }
+
 }
