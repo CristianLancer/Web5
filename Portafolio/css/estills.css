@@ -14,7 +14,7 @@
 body{
 
 
-background: #252850;
+background: #081b29;
 
 
 }
@@ -69,7 +69,7 @@ margin-left: 35px;
 
 
 .home-content{
-  background: yellowgreen;
+ color: white;
   max-width: 600px;
 
 
@@ -151,7 +151,7 @@ margin-left: 35px;
    left: 0;
    width: 0%;
    height: 100%;
-   background: red ;
+   background: #081b29;
    z-index: -1;
    transition: .5s;
 
@@ -225,7 +225,7 @@ margin-left: 35px;
   color: blue;
   text-decoration: none;
   z-index: 1;
-
+  overflow: hidden;
 
 }
 
@@ -238,7 +238,7 @@ top: 0;
 left: 0;
 width: 100%;
 height: 100%;
-background: red;
+background: aqua;
 z-index: -1;
 transition: .5s;
 
