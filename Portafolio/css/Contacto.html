@@ -8,47 +8,38 @@
 </head>
 <body>
     <header class="header">
-
         <a href="#" class="logo">Cristian.</a>
-         
-   
         <nav class="navbar">
-            <a href="index.html" class="Active" > Inicio</a>      
-            <a href="Actividades.html"> Actividades</a>
-            <a href="Acerca de mi.html"> Acerca de mi</a>
-             <a href="Contacto.html"> Contactame </a>
+            <a href="index.html" class="Active">Inicio</a>      
+            <a href="Actividades.html">Actividades</a>
+            <a href="Acerca de mi.html">Acerca de mi</a>
+            <a href="Contacto.html">Contactame</a>
         </nav>
-   
-   
-   </header>
+    </header>
     
-   <section>
-    
-   
+    <section>
+        <div class="home-content">
+            <h2 class="home-content">Contactame</h2>
+            <form action="#" method="post" class="contact-form">
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" class="input" required><br><br>
 
-     <div class="home-content">
+                <label for="email">Correo electrónico:</label><br>
+                <input type="email" id="email" name="email" class="input" required><br><br>
 
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="4" class="textarea" required></textarea><br><br>
 
-       <h2 class="home-content"> Comentarios </h2>
-         <ul id="comments-list">
-       
-         </ul>
-         <form id="comment-form">
-         <textarea id="comment-input" placeholder="Escribe tu comentario aquí..." required></textarea>
-         <button type="submit">Comentar</button>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
 
-
-     </section>
-
-   
-
-
-
-
-
-
-
-
-
+            <h2 class="home-content">Comentarios</h2>
+            <ul id="comments-list"></ul>
+            <form id="comment-form" class="comment-form">
+                <textarea id="comment-input" class="textarea" placeholder="Escribe tu comentario aquí..." required></textarea>
+                <button type="submit" class="btn">Comentar</button>
+            </form>
+        </div>
+    </section>
 </body>
 </html>
