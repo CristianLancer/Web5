@@ -13,9 +13,10 @@
 
 body{
 
- image-rendering: auto;
+ 
  background: #081b29;
- background-image:url(Portafolio\css\imagenes\Fondoweb.jpg)
+ background-image:url(https://tse3.mm.bing.net/th/id/OIP.LKW_YHbcNbYuyVnaJMOvpAAAAA?rs=1&pid=ImgDetMain&o=7&rm=3);
+ background-image: url(Portafolio/css/imagenes/Fondoweb.jpg)
 }
 
 
@@ -298,6 +299,7 @@ body{
   z-index: 1;
   overflow: hidden;
   transition: 5s;
+  color: tr;
 }
 
 
