@@ -297,7 +297,7 @@ body{
   text-decoration: none;
   z-index: 1;
   overflow: hidden;
-  transition: 5s;
+  transition: 1.5s;
   color: tr;
 }
 
@@ -334,9 +334,9 @@ right:0%;
 width: 600px;
 height: 100%;
 background: transparent;
-transition: 3s;
+transition: 1.5s;
 animation: manipActiveHover .1s forwards;
-animation-delay: 4s ;
+animation-delay: 1s ;
 pointer-events: none;
 
 
@@ -364,7 +364,7 @@ opacity: .8;
   height: 100%;
   background: #081b29 ;
  animation: showRight 1s ease forwards;
- animation-delay: 1.6s;
+ animation-delay: 1s;
  z-index: 2;
 
 }
@@ -377,7 +377,7 @@ opacity: .8;
   height: 100%;
   background: #081b29 ;
  animation: showRight 1s ease forwards;
- animation-delay: 3s;
+ animation-delay: 1s;
  z-index: 100;
 
 }
