@@ -1,50 +1,12 @@
 <style>
-  .jaula {
-    display: inline-block;
-    border: 15px solid #f39c12; 
-    padding: 25px;             
-    background-color: white;
+  .foto-filtro {
+    width: 400px;
+    transition: filter 0.4s ease; 
   }
-  .jaula img {
-    display: block;
-    width: 300px;
+
+  .foto-filtro:hover {
+    filter: grayscale(100%); 
   }
 </style>
 
-<div class="jaula">
-  <img src="https://es.ligonier.org/wp-content/uploads/2023/02/1200x630_eBlastHero_IO_19thCentury_BlogArt_02_Overviewof19thCentury.jpg" alt="">
-</div>
-
-<style>
-  .arquitectura-box {
-    margin-bottom: 2rem;
-  }
-  .explicacion {
-    height: 10rem;      
-    overflow-y: auto;   
-    border: 1px solid #ddd;
-    padding: 1rem;
-    background: #fff;
-  }
-</style>
-
-<div class="arquitectura-box">
-  <h2>Arquitectura Victoriana</h2>
-  <div class="explicacion">
-    Surgió a mediados del siglo XIX. Se caracteriza por sus detalles ornamentados, techos inclinados y el uso de materiales industriales como el hierro. Es común ver fachadas con texturas variadas y colores vibrantes.
-  </div>
-</div>
-
-<div class="arquitectura-box">
-  <h2>Arquitectura Barroca</h2>
-  <div class="explicacion">
-    Estilo del siglo XVII que utiliza formas curvas, decoración exuberante y juegos de luces para crear dramatismo. Busca asombrar al espectador mediante la complejidad y el sentido del movimiento.
-  </div>
-</div>
-
-<div class="arquitectura-box">
-  <h2>Arquitectura Moderna</h2>
-  <div class="explicacion">
-    Se basa en el funcionalismo y materiales como el acero y el hormigón. Elimina la ornamentación innecesaria bajo el lema "la forma sigue a la función", priorizando espacios abiertos y líneas limpias.
-  </div>
-</div>
+<img src="https://es.ligonier.org/wp-content/uploads/2023/02/1200x630_eBlastHero_IO_19thCentury_BlogArt_02_Overviewof19thCentury.jpg" alt="Imagen con filtro" class="foto-filtro">
