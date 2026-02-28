@@ -18,7 +18,7 @@
   }
   
   
-  /* Centra vertical y horizontalmente el contenido principal */
+
 body, html {
     height: 100%;
     margin: 0;
@@ -30,8 +30,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #081b29; /* Color de fondo opcional */
-}
+    background: #081b29; 
 
 .home-content {
     width: 100%;
@@ -403,7 +402,7 @@ section {
   
   
   
-  /* Estilos para el formulario de contacto y comentarios */
+  
 .contact-form, .comment-form {
     max-width: 400px;
     margin: 0 auto 2rem auto;
@@ -479,4 +478,4 @@ section {
       pointer-events: auto;
     }
   
-  }
+  }}
