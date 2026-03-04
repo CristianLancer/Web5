@@ -32,11 +32,12 @@ section {
     align-items: center;
     background: #081b29; 
 }
+
 .home-content {
     width: 100%;
     max-width: 500px;
     margin: 0 auto;
-}
+   }
   
 .header{
   
