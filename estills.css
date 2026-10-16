@@ -419,3 +419,36 @@ opacity: .8;
   }
 
 }
+
+/* Contenedor de la imagen a la derecha */
+.home-img {
+  position: absolute;
+  right: 5%;
+  width: 45%;
+  max-width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  animation: floatImage 4s ease-in-out infinite;
+}
+
+.home-img img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 0 20px rgba(0, 171, 240, 0.3));
+}
+
+/* Animación sutil de flotación para darle un toque moderno */
+@keyframes floatImage {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
