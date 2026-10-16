@@ -452,3 +452,27 @@ opacity: .8;
     transform: translateY(0);
   }
 }
+
+
+.logo {
+  position: relative;
+  font-size: 26px;
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  transition: 0.3s ease;
+}
+
+/* Le damos un toque de color degradado con tu azul cian */
+.logo .logo-accent {
+  background: linear-gradient(135deg, #00abf0, #005f87);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Un efecto sutil al pasar el mouse por encima */
+.logo:hover {
+  opacity: 0.9;
+  text-shadow: 0 0 10px rgba(0, 171, 240, 0.4);
+}
